@@ -1,0 +1,19 @@
+{
+  "name": "command-line-interface",
+  "version": "1.0.0",
+  "description": "A command-line interface application for asking and answering questions.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rimraf dist && npx tsc",
+    "start": "node dist/index.js",
+    "try": "npm run build && npm run start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "rimraf": "^5.0.0",
+    "typescript": "^5.0.4"
+  }
+}
